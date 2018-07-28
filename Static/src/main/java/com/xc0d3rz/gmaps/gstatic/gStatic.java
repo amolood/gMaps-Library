@@ -22,9 +22,13 @@ public class gStatic {
     private static String DirectionAPI = "https://maps.googleapis.com/maps/api/directions/json?origin=$A&destination=$B&waypoints=$C";
 
     /**
+     * YOUR MAP KEY
+     */
+    private static String MAP_KEY = "YOUR MAP KEY";
+    /**
      * Google Static Maps API
      */
-    private static String StaticAPI = "https://maps.googleapis.com/maps/api/staticmap?size=$A&maptype=roadmap&path=color:black|weight:5|enc:$B";
+    private static String StaticAPI = "https://maps.googleapis.com/maps/api/staticmap?size=$A&maptype=roadmap&path=color:black|weight:5|enc:$B&key="+MAP_KEY;
     /**
      * Start Map Marker
      */
